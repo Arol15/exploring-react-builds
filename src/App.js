@@ -7,7 +7,7 @@ import ClassComponent from './class-component/ClassComponent';
 function App() {
   return (
     <div>
-      <h1>Exploring React Builds</h1>
+      <h1>{process.env.REACT_APP_TITLE}</h1>
       <HeadingA />
       <HeadingB />
       <Image />
